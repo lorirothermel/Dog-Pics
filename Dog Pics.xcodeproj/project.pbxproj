@@ -11,6 +11,7 @@
 		DFB8742529D9423D005E996D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8742429D9423D005E996D /* ContentView.swift */; };
 		DFB8742729D9423F005E996D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB8742629D9423F005E996D /* Assets.xcassets */; };
 		DFB8742A29D9423F005E996D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB8742929D9423F005E996D /* Preview Assets.xcassets */; };
+		DFB8743229D95105005E996D /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8743129D95105005E996D /* DogViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		DFB8742429D9423D005E996D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFB8742629D9423F005E996D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB8742929D9423F005E996D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFB8743029D9431F005E996D /* Dog-Pics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dog-Pics-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DFB8743129D95105005E996D /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,9 @@
 		DFB8742129D9423D005E996D /* Dog Pics */ = {
 			isa = PBXGroup;
 			children = (
+				DFB8743029D9431F005E996D /* Dog-Pics-Info.plist */,
 				DFB8742229D9423D005E996D /* Dog_PicsApp.swift */,
+				DFB8743129D95105005E996D /* DogViewModel.swift */,
 				DFB8742429D9423D005E996D /* ContentView.swift */,
 				DFB8742629D9423F005E996D /* Assets.xcassets */,
 				DFB8742829D9423F005E996D /* Preview Content */,
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB8743229D95105005E996D /* DogViewModel.swift in Sources */,
 				DFB8742529D9423D005E996D /* ContentView.swift in Sources */,
 				DFB8742329D9423D005E996D /* Dog_PicsApp.swift in Sources */,
 			);
@@ -270,9 +276,9 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dog-Pics-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +305,9 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dog-Pics-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
